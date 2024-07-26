@@ -12,4 +12,5 @@ public interface EmpService {
     Integer delete(List<Integer> ids);
     Integer insert(Emp emp);
     Integer update(Emp emp);
+    Emp login(Emp emp);
 }
